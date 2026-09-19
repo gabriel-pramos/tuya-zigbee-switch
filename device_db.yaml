@@ -5192,7 +5192,7 @@ BOARD__JWCOM_TS0002:
   status: WIP
   info: ND-US-LN/L-K4S-P control board, 2-gang. Pinout from factory config block at 0xF8000
   threads: null
-  store: null
+  store: "https://www.mercadolivre.com.br/interruptor-inteligente-tecla-fisica-2-botoes-zigbee-branco/up/MLBU3393955846"
 SWITCH_LERLINK_TS0011:
   human_name: LerLink 1-gang switch
   category: switch
