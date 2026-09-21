@@ -5193,6 +5193,33 @@ BOARD__JWCOM_TS0002:
   info: ND-US-LN/L-K4S-P control board, 2-gang. Pinout from factory config block at 0xF8000
   threads: null
   store: "https://www.mercadolivre.com.br/interruptor-inteligente-tecla-fisica-2-botoes-zigbee-branco/up/MLBU3393955846"
+BOARD__JWCOM_TS0003:
+  human_name: JWCOM 3-gang switch
+  category: board
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS0003
+  stock_manufacturer_name: _TZ3000_nuz46z91
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: TS0003
+  override_z2m_device: null
+  tuya_module: ZTU
+  mcu_family: Telink
+  mcu: TLSR825x
+  config_str: nuz46z91;TS0003-JWC;LC1;LD4;SB4u;RD3;SB5u;RD7;SC4u;RC0;M;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 50001
+  build: yes
+  status: WIP
+  info: JWCOM 3-gang, ZTU module. Pinout from factory config block at 0xF8000
+  threads: null
+  store: null
 # SWITCH_LERLINK_TS0011:
 #   human_name: LerLink 1-gang switch
 #   category: switch
