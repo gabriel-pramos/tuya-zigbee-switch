@@ -231,6 +231,7 @@ class CustomWindowCoveringCluster(CustomCluster, WindowCovering):
 
 CONFIGS = [
     "fa20yzve;TS0002-JWC;LD4;LC1;SB5u;RD3;SC3u;RD7;M;",
+    "nuz46z91;TS0003-JWC;LC1;LD4;SB4u;RD3;SB5u;RD7;SC4u;RC0;M;",
 ]
 
 for config in CONFIGS:
