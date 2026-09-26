@@ -5190,7 +5190,7 @@ BOARD__JWCOM_TS0002:
   firmware_image_type: 50000
   build: yes
   status: WIP
-  info: ND-US-LN/L-K4S-P control board, 2-gang. Pinout from factory config block at 0xF8000
+  info: JWCOM 2-gang, ZTU module. Pinout from factory config block at 0xF8000
   threads: null
   store: "https://www.mercadolivre.com.br/interruptor-inteligente-tecla-fisica-2-botoes-zigbee-branco/up/MLBU3393955846"
 BOARD__JWCOM_TS0003:
@@ -5218,6 +5218,33 @@ BOARD__JWCOM_TS0003:
   build: yes
   status: WIP
   info: JWCOM 3-gang, ZTU module. Pinout from factory config block at 0xF8000
+  threads: null
+  store: null
+BOARD__NOVADIGITAL_TS0003:
+  human_name: Nova Digital NTZB-02 (2 switches + 1 socket)
+  category: board
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS0003
+  stock_manufacturer_name: _TZ3210_ok0ggpk7
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: TS0003
+  override_z2m_device: null
+  tuya_module: ZTU
+  mcu_family: Telink
+  mcu: TLSR825x
+  config_str: ok0ggpk7;TS0003-NTZB02;LC1;SD4u;RD7;IC4;SB5u;RC2;RC3;M;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: null
+  stock_image_type: 54179
+  firmware_image_type: 50002
+  build: yes
+  status: WIP
+  info: ZTU with 512KB flash. Socket channel has relay only, no button. C1 is shared network LED / key 2 indicator on stock FW. Pinout from multimeter (no factory config block).
   threads: null
   store: null
 # SWITCH_LERLINK_TS0011:
