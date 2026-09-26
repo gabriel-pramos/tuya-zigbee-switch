@@ -41,7 +41,8 @@ Support new devices: [contribute/porting.md](/docs/contribute/porting.md)
 
 | 🚧 | 📦 | 💡 | ⚡️ | 📲 |  🏭  | Zb&nbsp;Manufacturer <br> Zb&nbsp;Model | Name <br> Z2M&nbsp;page&nbsp;🔗 | Store | Threads | Status |
 | -- | -- | -- | -- | -- | :--: | :-------------------------------------- | :------------------------------ | ----: | ------: | :----- |
-|  | ✔️ | 🇧 | 🔌 | 🛜 | **TL** | `_TZ3000_fa20yzve` <br> `TS0002` | [JWCOM 2-gang switch](https://www.zigbee2mqtt.io/devices/TS0002.html) | [`Store`](https://www.mercadolivre.com.br/interruptor-inteligente-tecla-fisica-2-botoes-zigbee-branco/up/MLBU3393955846) |   | ND-US-LN/L-K4S-P control board, 2-gang. Pinout from factory config block at 0xF8000 | 
+|  | ✔️ | 🇧 | 🔌 | 🛜 | **TL** | `_TZ3000_fa20yzve` <br> `TS0002` | [JWCOM 2-gang switch](https://www.zigbee2mqtt.io/devices/TS0002.html) | [`Store`](https://www.mercadolivre.com.br/interruptor-inteligente-tecla-fisica-2-botoes-zigbee-branco/up/MLBU3393955846) |   | JWCOM 2-gang, ZTU module. Pinout from factory config block at 0xF8000 | 
 |  | ✔️ | 🇧 | 🔌 | 🛜 | **TL** | `_TZ3000_nuz46z91` <br> `TS0003` | [JWCOM 3-gang switch](https://www.zigbee2mqtt.io/devices/TS0003.html) |   |   | JWCOM 3-gang, ZTU module. Pinout from factory config block at 0xF8000 | 
+|  | ✔️ | 🇧 | 🔌 | ➿ | **TL** | `_TZ3210_ok0ggpk7` <br> `TS0003` | [Nova Digital NTZB-02 (2 switches + 1 socket)](https://www.zigbee2mqtt.io/devices/TS0003.html) |   |   | ZTU with 512KB flash. Socket channel has relay only, no button. C1 is shared network LED / key 2 indicator on stock FW. Pinout from multimeter (no factory config block). | 
 
 Data from [`device_db.yaml`](/device_db.yaml)
